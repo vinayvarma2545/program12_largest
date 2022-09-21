@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>largestAmong</title>
+</head>
+<body>
+    <script>
+        const x = prompt(`enter x value:`);
+        const y = prompt(`enter y value:`);
+        const z = prompt(`enter z value:`);
+        let result;
+
+        if (x>y && x>z){
+            result=x;
+        }
+
+        else if (y>x && y>z){
+            result=y;
+        }
+
+        else {
+            result=z
+        }
+
+        document.write(`${result} is largest the among ${x},${y},${z}`)
+
+    </script>
+</body>
+</html>
